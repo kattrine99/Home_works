@@ -7,3 +7,5 @@ The repository is organized by lessons to make navigation easier:
 <ul>
   <li><b>Lesson Number:</b> Folders categorizing assignments by module.</li>
 <li><b>Assignment Title:</b> Individual assignments with their respective files.</li>
+</ul>
+
