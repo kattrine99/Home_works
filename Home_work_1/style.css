@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color:#F6F5FC;
+}
+#MyPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding:30px 0;
+    width: 300px;
+    height: 300px;
+}
+#ContactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#fio {
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2709ca;
+}
+#ContactInfo i{
+    padding:0 5px 0 20px;
+    color: 	#02a6e3;
+}
+#ContactInfo a{
+    color:rgb(50, 50, 50)
+}
+#ContactInfo a:hover{
+    color:#2709CA;
+}
+#WorkExp{
+    grid-column:2;
+  grid-row: 3 / span 2;
+  padding: 20px 0;
+}
+#Skills, .Interests, #Languages{
+    Padding: 20px 40%;
+}
+h2{
+    font-size: 24;
+    color:#2709ca;
+    padding:0 0 10px 0 ;
+}
+.place{
+    padding: 20px 0;
+    color:#5052a0;
+}
+.period{
+    padding: 0 0 10px 0;
+    text-decoration: underline;
+}
