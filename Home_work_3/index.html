@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Форма регистрации</title>
+</head>
+<body>
+    <div class="RegForm"><h2>Оставить заявку</h2>
+    <form class="register">
+       <label>Имя: <input type="text" name="Name"></label>
+       <label for="Countries"> Страна:
+        <select name="Countries" id="Countries" onchange="selectCountry()">
+            <option value="Select">Выберите страну..</option>
+            <option value="Uzbekistan">Узбекистан</option>
+            <option value="USA">Америка</option>
+            <option value="Russia">Россия</option>
+        </select>
+       </label>
+
+       <label>Телефон: <input type="tel" name="PhoneNumber" id="Phone"></label>
+       <label><input onchange="Check()" type="checkbox" name="check" id="Checked" >Подтвердить обработку данных</label>
+       <button id="Btn" hidden>Отправить</button>
+    </form>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
