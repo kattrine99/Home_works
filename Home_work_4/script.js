@@ -21,8 +21,7 @@ function convertMoney(){
     }
     else{
         money = Euro;
-        Currency.innerHTML = "EUR"
-        ;
+        Currency.innerHTML = "EUR";
     }
     let total = money * MoneyValue;
     UZbMoney.innerHTML = "UZS: " + total;
