@@ -1,10 +1,8 @@
 let moneyType = document.querySelector("#MoneyType");
 let Currency = document.getElementById("cur");
-let UZbMoney = document.getElementById("uzs");
 
 moneyType.addEventListener("input", convertMoney)
 function convertMoney(){
-    let MoneyValue = document.getElementsByName("currency")[0].value;
     let currentMoneyType = moneyType.value;
     let Dollar = 12700;
     let Rubl = 133;
@@ -23,6 +21,8 @@ function convertMoney(){
         money = Euro;
         Currency.innerHTML = "EUR";
     }
+    let MoneyValue = document.getElementsByName("currency")[0].value;
     let total = money * MoneyValue;
-    UZbMoney.innerHTML = "UZS: " + total;
+    let UZbMoney = document.getElementsByName("Uzs");
+    UZbMoney.value = total;
 }
